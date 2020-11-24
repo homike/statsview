@@ -9,7 +9,7 @@ import (
 	"github.com/go-echarts/go-echarts/v2/templates"
 	"github.com/rs/cors"
 
-	"statsview/statics"
+	"github.com/homike/statsview/statics"
 )
 
 func init() {

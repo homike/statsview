@@ -2,7 +2,8 @@ package main
 
 import (
 	"math/rand"
-	"statsview"
+
+	"github.com/homike/statsview"
 )
 
 func generateValues() []float64 {

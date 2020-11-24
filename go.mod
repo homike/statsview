@@ -1,4 +1,4 @@
-module statsview
+module github.com/homike/statsview
 
 go 1.13
 
