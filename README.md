@@ -22,27 +22,19 @@ statsview.Startup(views)
 Statsview gets a variety of configurations for the users. Everyone could customize their favorite charts style.
 
 ```golang
-// WithInterval sets the interval(in Millisecond) of collecting and pulling metrics
+// 统计间隔
 // default -> 2000
 WithInterval(interval int)
 
-// WithMaxPoints sets the maximum points of each chart series
-// default -> 30
-WithMaxPoints(n int)
-
-// WithTemplate sets the rendered template which fetching stats from the server and
-// handling the metrics data
-WithTemplate(t string)
-
-// WithAddr sets the listen address
+// 可视化url
 // default -> "localhost:18066"
 WithAddr(addr string)
 
-// WithTimeFormat sets the time format for the line-chart Y-axis label
+// 时间格式
 // default -> "15:04:05"
 WithTimeFormat(s string)
 
-// WithTheme sets the theme of the charts
+// 主题
 // default -> Macarons
 //
 // Optional:
@@ -59,6 +51,6 @@ statsview.SetConfiguration(
     statsview.WithInterval(10000))
 ```
 
-## ������ Snapshot
+## 🔖 Snapshot
 
 ![Macarons](https://github.com/homike/media/blob/main/statsview.png)
