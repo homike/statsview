@@ -33,7 +33,7 @@ function {{ .ViewID }}_sync() {
         }
     });
 }`
-	DefaultMaxPoints  = 30
+	DefaultMaxPoints  = 200
 	DefaultTimeFormat = "15:04:05"
 	DefaultInterval   = 2000
 	DefaultAddr       = "localhost:18066"
