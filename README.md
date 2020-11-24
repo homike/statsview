@@ -59,6 +59,6 @@ statsview.SetConfiguration(
     statsview.WithInterval(10000))
 ```
 
-## í ½í´– Snapshot
+## ðŸ”– Snapshot
 
 ![Macarons](https://github.com/homike/media/blob/main/statsview.png)
