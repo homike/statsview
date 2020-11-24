@@ -58,3 +58,7 @@ statsview.SetConfiguration(
     statsview.WithAddr("192.168.0.1:8088"),
     statsview.WithInterval(10000))
 ```
+
+## í ½í´– Snapshot
+
+![Macarons](https://github.com/homike/media/blob/main/statsview.png)
